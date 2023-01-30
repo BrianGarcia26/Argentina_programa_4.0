@@ -432,17 +432,141 @@ footer hr {
         width: 40%;
         margin: 1rem;
         border-radius: 2rem;
-    } }
-
-@media only screen and (max-width: 900px) {
+    } 
     .Intro, .SobreMi, .Proyectos , .Recursos , .Contacto , section , footer {
-        width: 600px;
+        width: 700px;
         margin: auto;
     }
     .imgPresent {
         position: absolute;
         top: 230px;
-        left: calc(50% - 300px); 
+        left: calc(50% - 350px); 
+        z-index: 1;
+    }
+    .proyectoTarjeta {
+        height: 250px;
+    }
+    .recursosHijos {
+        width: 24%;
+        display: flex;
+        align-items: center;
+    }
+    .animado {
+        height: 85px;
+        width: 250px;
+        position: sticky;
+        bottom: 2rem;
+        margin: 2rem;
+    }
+    .final {
+        padding-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .contactoForm {
+        width: 45%;
+        border-radius: 2rem;
+        overflow-y: auto;
+    }
+    
+    .contactoImg {
+        width: 40%;
+        margin: 1rem;
+        border-radius: 2rem;
+    } 
+    .Intro, .SobreMi, .Proyectos , .Recursos , .Contacto , section , footer {
+        width: 550px;
+        margin: auto;
+    }
+    .imgPresent {
+        position: absolute;
+        top: 230px;
+        left: calc(50% - 275px); 
+        z-index: 1;
+    }
+    .proyectoTarjeta {
+        height: 250px;
+    }
+    .recursosHijos {
+        width: 24%;
+        display: flex;
+        align-items: center;
+    }
+    .animado {
+        height: 85px;
+        width: 250px;
+        position: sticky;
+        bottom: 2rem;
+        margin: 2rem;
+    }
+    .final {
+        padding-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .contactoForm {
+        width: 45%;
+        border-radius: 2rem;
+        overflow-y: auto;
+    }
+    
+    .contactoImg {
+        width: 40%;
+        margin: 1rem;
+        border-radius: 2rem;
+    } 
+    .Intro, .SobreMi, .Proyectos , .Recursos , .Contacto , section , footer {
+        width: 400px;
+        margin: auto;
+    }
+    .imgPresent {
+        position: absolute;
+        top: 230px;
+        left: calc(50% - 200px); 
+        z-index: 1;
+    }
+    .proyectoTarjeta {
+        height: 250px;
+    }
+    .recursosHijos {
+        width: 24%;
+        display: flex;
+        align-items: center;
+    }
+    .animado {
+        height: 85px;
+        width: 250px;
+        position: sticky;
+        bottom: 2rem;
+        margin: 2rem;
+    }
+    .final {
+        padding-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .contactoForm {
+        width: 45%;
+        border-radius: 2rem;
+        overflow-y: auto;
+    }
+    
+    .contactoImg {
+        width: 40%;
+        margin: 1rem;
+        border-radius: 2rem;
+    } 
+    .Intro, .SobreMi, .Proyectos , .Recursos , .Contacto , section , footer {
+        width: 300px;
+        margin: auto;
+    }
+    .imgPresent {
+        position: absolute;
+        top: 230px;
+        left: calc(50% - 150px); 
         z-index: 1;
     }
     .proyectoTarjeta {
