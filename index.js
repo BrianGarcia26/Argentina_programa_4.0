@@ -39,7 +39,7 @@ enviarDatos.addEventListener("click", () => {
 
     modalMensaje.classList.remove("animado")
     setTimeout(() => modalMensaje.classList.add("animado"), 100)
-    
+    setTimeout(() => modalMensaje.classList.remove("animado"), 6000)
 
     modalMensaje.innerHTML = `Hola ${inputNombre.value}.
                        Gracias por tu mensaje.

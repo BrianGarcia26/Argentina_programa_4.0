@@ -294,13 +294,13 @@ h3 {
 }
 
 .contactoForm {
-    width: 55%;
+    width: 50%;
     border-radius: 2rem;
     overflow-y: auto;
 }
 
 .contactoImg {
-    width: 45%;
+    width: 40%;
     margin: 1rem;
     border-radius: 2rem;
 }
@@ -393,6 +393,9 @@ footer hr {
     color: grey;
 }
 
+.containerMensaje {
+    color: transparent;
+}
 
 .animado {
     height: 85px;
@@ -416,4 +419,48 @@ footer hr {
         color:black;}
     100% {background-color: transparent;
         color: transparent;}
+}
+
+@media only screen and (max-width: 1000px) {
+    .contactoForm {
+        width: 45%;
+        border-radius: 2rem;
+        overflow-y: auto;
+    }
+    
+    .contactoImg {
+        width: 40%;
+        margin: 1rem;
+        border-radius: 2rem;
+    } }
+
+@media only screen and (max-width: 900px) {
+    .Intro, .SobreMi, .Proyectos , .Recursos , .Contacto , section , footer {
+        width: 600px;
+        margin: auto;
+    }
+    .imgPresent {
+        position: absolute;
+        top: 230px;
+        left: calc(50% - 300px); 
+        z-index: 1;
+    }
+    .proyectoTarjeta {
+        height: 250px;
+    }
+    .recursosHijos {
+        width: 24%;
+        display: flex;
+        align-items: center;
+    }
+    .animado {
+        height: 85px;
+        width: 250px;
+        position: sticky;
+        bottom: 2rem;
+        margin: 2rem;
+    }
+    .final {
+        padding-bottom: 0px;
+    }
 }
