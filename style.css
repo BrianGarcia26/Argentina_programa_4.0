@@ -11,6 +11,7 @@
     box-shadow: 0 0.05rem 1.2rem black;
     position: fixed;
     background-color: white;
+    z-index: 2;
 }
 
 .logo {
@@ -72,6 +73,7 @@ div {
     position: absolute;
     top: 230px;
     left: calc(50% - 450px); 
+    z-index: 1;
 }
 
 .fondo {
@@ -79,7 +81,7 @@ div {
     padding: 0;
     width: 100%;
     height: 20rem;
-    background-image: url(./img/fondo.jpg);
+    background-image: url(./img/fondo.webp);
     background-position: center;
     background-size: cover;
 }
@@ -304,7 +306,7 @@ h3 {
 }
 
 label {
-    color: grey;
+    color: rgb(103, 103, 103);
     height: 2rem;
 }
 
@@ -337,6 +339,10 @@ textarea {
     color: rgb(127, 94, 135);
     border-radius: 3px;
     border: 1px solid rgb(138, 137, 137, 0.7);
+}
+
+button:hover {
+    background-color: rgb(202, 202, 202);
 }
 
 .linkContainer {
@@ -385,4 +391,29 @@ footer hr {
     padding-bottom: 5rem;
     font-weight: normal;
     color: grey;
+}
+
+
+.animado {
+    height: 85px;
+    width: 250px;
+    position: sticky;
+    bottom: 1.5rem;
+    margin: 1.5rem;
+    border-radius: 10px;
+    color: transparent;
+    background-color: transparent;
+    animation-name: animacion;
+    animation-duration: 5s;
+}
+
+@keyframes animacion {
+    0% {background-color: transparent;
+        color: transparent;}
+    5% {background-color: rgb(144, 215, 121);
+        color:black;}
+    80% {background-color: rgb(144, 215, 121);
+        color:black;}
+    100% {background-color: transparent;
+        color: transparent;}
 }
